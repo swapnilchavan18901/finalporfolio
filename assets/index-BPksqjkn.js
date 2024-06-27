@@ -42,13 +42,13 @@ Error generating stack: `+s.message+`
 margin-right:600px;
 margin-left:50px;
 width:100px;
-background:black;
 padding:0px;
   @media (max-width: 400px) {
   display:none;
   }
 `,EH=ft.img`
-height:45px;width:100px;
+height:40px;
+width:90px;
 `,TH=ft.div`
 display:flex;
 @media (max-width: 400px) {
