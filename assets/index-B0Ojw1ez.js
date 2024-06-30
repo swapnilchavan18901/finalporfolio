@@ -4261,7 +4261,7 @@ width:70%;
   }
 `,XX=vt.div`
   display: flex;
-  height:270px;
+  height:280px;
   margin: 10px;
   padding:10px;
   border:2px solid #000;
@@ -4282,7 +4282,7 @@ width:70%;
   font-family: "Helvetica";
   width: 700px;
   color: #000;
-
+ margin:10px;
   text-align: left;
   @media (max-width: 400px) {
     font-size: 13px;
@@ -4316,10 +4316,14 @@ width:70%;
   height: 250px;
   width: 250px;
   // padding-right: 50px;
+  background-repeat:no-repeat;
+  //  background-size: contain
+  object-fit:cover; 
   @media (max-width: 400px) {
     height: 160px;
     width: 160px;
     padding-right: 0px;
+    
   }
 `,qX=vt.div`
   font-size: 20px;
@@ -4340,7 +4344,7 @@ justify-content:center;
 
 `,eJ=vt.div`
 // background:green;
-
+  margin:10px;
 `,tJ=vt.div`
 font-size:13px;
 
