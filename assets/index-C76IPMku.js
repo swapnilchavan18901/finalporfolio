@@ -4140,7 +4140,7 @@ width:70%;
     padding: 10px 10px 10px 10px;
     text-align: left;
   }
-`,RX="/assets/JS-CwMQ9PFT.png",PX="/assets/mongodb-C42xHQEU.png",BX="/assets/CSS-JXhED_0d.png",IX="/assets/HTML5-De3HQIxQ.png",LX="/assets/tailwind-DtDdoawX.png",DX="/assets/nodejs-DtMEDgEz.png",OX="/assets/react-CVG-Meli.png",NX="/assets/git-DxhqatJF.png",FX="/assets/mysql-MBoN4AJA.png",UX="/assets/firebase-CrDlKi6C.png";function kX(){return Y.jsx(Y.Fragment,{children:Y.jsxs(zX,{name:"skills",children:[Y.jsx(HX,{className:"autoShow",children:"Skills "}),Y.jsx(GX,{children:Y.jsxs(VX,{children:[Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:IX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:BX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:RX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:OX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:LX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:NX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:DX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:PX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:FX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:UX})})]})})]})})}const zX=vt.div`
+`,RX="/assets/JS-CwMQ9PFT.png",PX="/assets/mongodb-C42xHQEU.png",BX="/assets/CSS-JXhED_0d.png",IX="/assets/HTML5-De3HQIxQ.png",LX="/assets/tailwind-DtDdoawX.png",DX="/assets/nodejs-DtMEDgEz.png",OX="/assets/react-CVG-Meli.png",NX="/assets/git-DxhqatJF.png",FX="/assets/mysql-MBoN4AJA.png",UX="/assets/firebase-CrDlKi6C.png";function kX(){return Y.jsx(Y.Fragment,{children:Y.jsxs(zX,{name:"skills",children:[Y.jsx(HX,{className:"autoShow",children:"Skills "}),Y.jsx(GX,{children:Y.jsxs(VX,{children:[Y.jsx("a",{target:"_blank",href:"https://en.wikipedia.org/wiki/HTML5",children:Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:IX})})}),Y.jsx("a",{target:"_blank",href:"https://en.wikipedia.org/wiki/CSS",children:Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:BX})})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:RX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:OX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:LX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:NX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:DX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:PX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:FX})}),Y.jsx(Ls,{className:"autoShow",children:Y.jsx(Ds,{src:UX})})]})})]})})}const zX=vt.div`
   display: flex;
   flex-direction: column;
   // padding
@@ -4220,8 +4220,9 @@ width:70%;
   box-shadow: #000 0px 4px 8px -2px;
   transition:all 250ms ease-in-out;
   &:hover{
-    transform:scale(1.07);
-  }
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+    }
   @media (max-width: 400px) {
     margin: 0px;
     width: 110px;
@@ -4318,7 +4319,7 @@ width:70%;
   // padding-right: 50px;
   background-repeat:no-repeat;
   //  background-size: contain
-  object-fit:cover; 
+  object-fit:contain; 
   @media (max-width: 400px) {
     height: 160px;
     width: 160px;
