@@ -4049,7 +4049,7 @@ margin:10px;
 `,MX=vt.div`
   display: flex;
   // width: 1200px;
-  height: 100vh;
+  height: 60vh;
 //   padding-top: 50px;
   flex-direction: column;
   justify-content:center;
